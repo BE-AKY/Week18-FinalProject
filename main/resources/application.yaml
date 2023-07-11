@@ -1,0 +1,15 @@
+spring:
+   datasource:
+     username: orchid_society
+     password: orchid_society
+     url: jdbc:mysql://localhost:3306/orchid_society
+     
+   jpa:
+     hibernate:
+        ddl-auto: update
+     show-sql: true
+     defer-datasource-initialization: true
+     
+   sql:
+     init:
+        mode: never
